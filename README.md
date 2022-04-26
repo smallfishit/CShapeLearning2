@@ -3,6 +3,8 @@
 ## C#基本練習題題庫2  
   
 練習1:  
+專案：Q01  
+測試：Q01.Test  
 請實作一個「給定正整數變數長、寬、高，計算並顯示長方體體積的功能」。以下為使用者操作程式時，假設給定長8公尺、寬12公尺、高10公尺之變數，在畫面上應該要看到的資訊：  
 Enter height of box (meter): 8  
 Enter length of box (meter): 12  
@@ -10,6 +12,8 @@ Enter width of box (meter): 10
 Volume (cubic meters): 960  
   
 練習2:  
+專案：Q02  
+測試：Q02.Test  
 承上題，請將長、寬、高以及計算結果，改為可接受浮點數的型別。  
 Enter height of box (meter): 8.5  
 Enter length of box (meter): 12.5  
