@@ -21,6 +21,8 @@ Enter width of box (meter): 10.5
 Volume (cubic meters): 1115.625  
   
 練習3:  
+專案：Q03  
+測試：無  
 請執行以下程式，然後簡單回答為什麼執行結果會依序是True, False, False?  
 ```
 using System;  
@@ -35,8 +37,8 @@ namespace ConsoleApp
 			string str2 = "abc";
 			int int1 = 1;
 			int int2 = 1;
-			StringBuilder sb1 = newStringBuilder("abc");
-			StringBuilder sb2 = newStringBuilder("abc");
+			StringBuilder sb1 = new StringBuilder("abc");
+			StringBuilder sb2 = new StringBuilder("abc");
 			Console.WriteLine("Reference equal for string: " + ReferenceEquals(str1, str2));
 			Console.WriteLine("Reference equal for int: " + ReferenceEquals(int1, int2));
 			Console.WriteLine("Reference equal for StringBuilder: " + ReferenceEquals(sb1, sb2));
@@ -46,6 +48,8 @@ namespace ConsoleApp
 ```
 
 練習4:
+專案：Q04  
+測試：Q04.Test  
 給定一個任意非空的整數陣列nums，請將陣列中的所有元素由小到大排序，然後輸出排序後的陣列。
 依照以下規格實作程式，並自行撰寫test code驗證：
 ```
