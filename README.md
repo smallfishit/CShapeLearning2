@@ -76,7 +76,7 @@ publicint[]SortArray(int[] nums)
   
 依照以下規格實作程式，並自行撰寫test code驗證：  
 ```
-publicintSingleNumber(int[] nums)
+public int SingleNumber(int[] nums)
 {
 ……
 }
