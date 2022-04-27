@@ -13,7 +13,7 @@ namespace Q05
             try
             {
                 int[] nums = new int[] { 4, 1, 2, 1, 2 };
-                NumberAnalysis analysis = new NumberAnalysis();
+                NumberMethod analysis = new NumberMethod();
                 int num = analysis.SingleNumber(nums);
 
                 Console.WriteLine($"原來的陣列: {ShowArray(nums)}");

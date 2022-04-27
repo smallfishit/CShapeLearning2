@@ -26,7 +26,7 @@ namespace Q01.Test
         public void ShowScoreResult_InputScore_ReturnOutOfRange(int length, int width, int height, int volumn)
         {
             //建立物件
-            VolumnCalculator volumnCal = new VolumnCalculator();
+            Cube volumnCal = new Cube();
             //顯示結果
             int result = volumnCal.CalculateVolumn(length, width, height);
             //驗證結果是否正確

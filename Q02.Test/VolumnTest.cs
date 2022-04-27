@@ -22,7 +22,7 @@ namespace Q02.Test
         private void GetCalaulateVolumn(float length, float width, float height, int dot, float volumn)
         {
             //建立物件
-            VolumnCalculator volumnCal = new VolumnCalculator();
+            Cube volumnCal = new Cube();
             //顯示結果
             float result = volumnCal.CalculateVolumn(length, width, height, dot);
             //驗證結果是否正確

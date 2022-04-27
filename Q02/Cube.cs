@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Q02
 {
-    /// <summary>體積計算物件</summary>
-    public class VolumnCalculator
+    /// <summary>立方體物件</summary>
+    public class Cube
     {
         /// <summary>
         /// 計算體積

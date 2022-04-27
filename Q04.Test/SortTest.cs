@@ -26,7 +26,7 @@ namespace Q04.Test
         public void ShowScoreResult_InputScore_ReturnOutOfRange([ValueSource("_sortTestArray")]SortTestData sortData)
         {
             //建立物件
-            ArraySort sort = new ArraySort();
+            ArrayMethod sort = new ArrayMethod();
             //顯示結果
             int[] result = sort.SortArray(sortData.inputArray);
             //驗證結果是否正確

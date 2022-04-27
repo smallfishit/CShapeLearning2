@@ -28,7 +28,7 @@ namespace Q05.Test
         public void ShowScoreResult_InputScore_ReturnOutOfRange([ValueSource("_sortTestArray")]NumberTestData numberData)
         {
             //建立物件
-            NumberAnalysis analysis = new NumberAnalysis();
+            NumberMethod analysis = new NumberMethod();
             //顯示結果
             int result = analysis.SingleNumber(numberData.inputArray);
             //驗證結果是否正確

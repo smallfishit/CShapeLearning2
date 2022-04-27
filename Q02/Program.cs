@@ -24,7 +24,7 @@ namespace Q02
                 text = Console.ReadLine();
                 width = float.Parse(text);
 
-                VolumnCalculator volumnCal = new VolumnCalculator();
+                Cube volumnCal = new Cube();
                 float volumn = volumnCal.CalculateVolumn(length, width, height, 1);
                 Console.WriteLine($"Volume (cubic meters): {volumn}");
             }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Q04
 {
-    /// <summary>排序物件</summary>
-    public class ArraySort
+    /// <summary>陣列方法</summary>
+    public class ArrayMethod
     {
         /// <summary>
         /// 幫陣列排序(氣泡排序法)

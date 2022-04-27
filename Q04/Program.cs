@@ -11,7 +11,7 @@ namespace Q04
         static void Main(string[] args)
         {
             int[] nums = new int[] { 4, 5, 3, 1, 2 };
-            ArraySort sort = new ArraySort();
+            ArrayMethod sort = new ArrayMethod();
             int[] array = sort.SortArray(nums);
 
             Console.WriteLine($"原來的陣列: {ShowArray(nums)}");

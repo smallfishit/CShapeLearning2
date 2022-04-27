@@ -26,7 +26,7 @@ namespace Q02.Test
         public void CalculateVolumn2_InputDecimal_ReturnVolumn(decimal length, decimal width, decimal height, decimal volumn)
         {
             //建立物件
-            VolumnCalculator volumnCal = new VolumnCalculator();
+            Cube volumnCal = new Cube();
             //顯示結果
             decimal result = volumnCal.CalculateVolumn2(length, width, height);
             //驗證結果是否正確
