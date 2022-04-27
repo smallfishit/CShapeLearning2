@@ -10,22 +10,22 @@ namespace Q02
     {
         static void Main(string[] args)
         {
-            decimal length = 0, width = 0, height = 0;
+            float length = 0, width = 0, height = 0;
 
             try
             {
                 Console.Write("Enter height of box (meter): ");
                 string text = Console.ReadLine();
-                height = decimal.Parse(text);
+                height = float.Parse(text);
                 Console.Write("Enter length of box (meter): ");
                 text = Console.ReadLine();
-                length = decimal.Parse(text);
+                length = float.Parse(text);
                 Console.Write("Enter width of box (meter): ");
                 text = Console.ReadLine();
-                width = decimal.Parse(text);
+                width = float.Parse(text);
 
                 VolumnCalculator volumnCal = new VolumnCalculator();
-                decimal volumn = volumnCal.CalculateVolumn(length, width, height);
+                float volumn = volumnCal.CalculateVolumn(length, width, height, 1);
                 Console.WriteLine($"Volume (cubic meters): {volumn}");
             }
             catch (Exception ex)
